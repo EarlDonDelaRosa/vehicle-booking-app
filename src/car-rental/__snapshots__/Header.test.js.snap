@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`This is login page To check if data has changed 1`] = `
+<h2
+  align="left"
+  class="ms-3"
+>
+  Car Rental Service 23
+</h2>
+`;

@@ -1,0 +1,162 @@
+{
+  "userlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Earl Don",
+      "username": "earl",
+      "password": "000000",
+      "owner": "Y"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "customer1",
+      "username": "customer1",
+      "password": "111111",
+      "owner": "N"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "name": "customer2",
+      "username": "customer2",
+      "password": "222222",
+      "owner": "N"
+    }
+  ],
+  "AgencyVehicles": [
+    {
+      "id": 1,
+      "Brand": "ASTON MARTIN",
+      "VehicleType": "Car Type",
+      "TotalQuantity": 10,
+      "Available": 5
+    },
+    {
+      "id": 2,
+      "Brand": "BWM",
+      "VehicleType": "Car Type",
+      "TotalQuantity": 24,
+      "Available": 20
+    },
+    {
+      "id": 3,
+      "Brand": "JAGUAR",
+      "VehicleType": "Car Type",
+      "TotalQuantity": 3,
+      "Available": 3
+    },
+    {
+      "id": 4,
+      "Brand": "MASERATI",
+      "VehicleType": "Car Type",
+      "TotalQuantity": 1,
+      "Available": 1
+    },
+    {
+      "id": 5,
+      "Brand": "ROLLS ROYCE",
+      "VehicleType": "Car Type",
+      "TotalQuantity": 6,
+      "Available": 5
+    },
+    {
+      "VehicleType": "SUV Type",
+      "Brand": "NISSAN",
+      "TotalQuantity": "15",
+      "Available": "15",
+      "id": 7
+    },
+    {
+      "VehicleType": "Mini-Van Type",
+      "Brand": "TOYOTA",
+      "TotalQuantity": "11",
+      "Available": "8",
+      "id": 8
+    }
+  ],
+  "Requested": [
+    {
+      "id": 2,
+      "userId": 2,
+      "requestId": 2,
+      "Brand": "BMW",
+      "VehicleType": "Car Type",
+      "StartDate": "2022-07-20",
+      "EndDate": "2022-07-23",
+      "Status": "Pending",
+      "VehicleRented": 3
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "requestId": 1,
+      "Brand": "ASTON MARTIN",
+      "VehicleType": "Car Type",
+      "StartDate": "2022-07-15",
+      "EndDate": "2022-07-27",
+      "Status": "Pending",
+      "VehicleRented": 5
+    },
+    {
+      "VehicleType": "Bus Type",
+      "Brand": "TOYOTA",
+      "VehicleRented": 2,
+      "StartDate": "2022-07-18",
+      "EndDate": "2022-07-22",
+      "Status": "Pending",
+      "userId": "2",
+      "requestId": 3,
+      "id": 4
+    }
+  ],
+  "userId2": [
+    {
+      "id": 1,
+      "userId": 2,
+      "requestId": 1,
+      "Brand": "BMW",
+      "VehicleType": "Car Type",
+      "StartDate": "2022-06-05",
+      "EndDate": "2022-06-23",
+      "Status": "Approved",
+      "VehicleRented": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "requestId": 2,
+      "Brand": "BMW",
+      "VehicleType": "Car Type",
+      "StartDate": "2022-07-20",
+      "EndDate": "2022-07-23",
+      "Status": "Pending",
+      "VehicleRented": 3
+    },
+    {
+      "VehicleType": "Bus Type",
+      "Brand": "TOYOTA",
+      "VehicleRented": 2,
+      "StartDate": "2022-07-18",
+      "EndDate": "2022-07-22",
+      "Status": "Pending",
+      "id": 3,
+      "userId": "2",
+      "requestId": 3
+    }
+  ],
+  "userId3": [
+    {
+      "id": 1,
+      "userId": 3,
+      "requestId": 1,
+      "Brand": "ASTON MARTIN",
+      "VehicleType": "Car Type",
+      "StartDate": "2022-07-15",
+      "EndDate": "2022-07-27",
+      "Status": "Pending",
+      "VehicleRented": 5
+    }
+  ]
+}
